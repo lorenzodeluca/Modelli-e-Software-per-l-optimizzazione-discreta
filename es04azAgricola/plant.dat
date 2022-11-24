@@ -1,0 +1,10 @@
+# data in AMPL format
+
+set Tenute := A B C;
+set Colture := mais grano orzo; 
+
+param Dim :=  A 600 B 700 C 500;
+param CapAcqua :=  A 8000 B 5500 C 6000;
+param Profitto :=  mais 6500 grano 5000 orzo 6000 ;
+param Consumo :=  mais 16 grano 12 orzo 14 ;
+param riposoCampi := 200 ;

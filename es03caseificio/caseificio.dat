@@ -1,0 +1,11 @@
+# data in AMPL format
+
+set Formaggi := burro ricotta mozzarella ;
+
+param Lb :=  burro 230 ricotta 150 mozzarella 140 ;
+param Ricavo :=  burro 3 ricotta 5 mozzarella 8 ;
+param Tempo :=  burro 15 ricotta 6 mozzarella 11 ;
+param Latte :=  burro 1.5 ricotta 1.1 mozzarella 2 ;
+param DispOre := 200 ;
+param DispLatte := 900 ;
+param CostoLatte := 0.5 ;
